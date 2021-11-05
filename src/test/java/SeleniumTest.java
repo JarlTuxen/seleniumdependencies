@@ -14,7 +14,7 @@ public class SeleniumTest {
     public void fireFoxTest(){
         //set headless with options in FirefoxDriver constructor
         FirefoxOptions options = new FirefoxOptions();
-        options.setHeadless(true);
+        options.setHeadless(false);
         WebDriver driver = new FirefoxDriver(options);
         //get webpage
         driver.get("http://demo.guru99.com/");
