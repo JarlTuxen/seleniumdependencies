@@ -27,7 +27,7 @@ public class SeleniumTest {
         //clean up browserdriver - if visible close tab used
         System.out.println("Title of page is: " + driver.getTitle());
         assertTrue(driver.getTitle().equals("Guru99 Bank Home Page"));
-        //driver.wait(3000);
+        driver.wait(3000);
         driver.close();
     }
 }
